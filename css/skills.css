@@ -64,6 +64,7 @@
 
 #skills-second-row-content .progress {
     background-color: rgb(77, 56, 36);
+    height: 24px;
 }
 
 #progress-creativity,
@@ -81,6 +82,7 @@
 #skills-second-row-content .progress span {
     font-family: Raleway-Regular, Arial, Helvetica;
     letter-spacing: 1px;
+    padding-top: 1px;
 }
 
 #skills-second-row-content .progress span:first-child {
