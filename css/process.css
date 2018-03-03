@@ -1,0 +1,158 @@
+#process>.process-container {
+    background-color: #141414;
+    width: 100%;
+}
+
+#process-first-row-content h1 {
+    color: white;
+    font-family: Raleway-Bold, Arial, Helvetica;
+    font-size: 70px;
+    margin-top: 90px;
+}
+
+@media (max-width: 370px) {
+    #process-first-row-content h1 {
+        font-size: 50px;
+    }
+}
+
+#process-first-row-content small {
+    color: #687373;
+    font-family: Raleway-Medium, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#process-first-row-content small>span {
+    color: white;
+}
+
+#process-first-row-content p {
+    color: #dfdfdf;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#process-second-row-content {
+    margin-bottom: 30px;
+}
+
+#process-second-row-content .fa {
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    color: white;
+    font-size: 32px;
+    padding: 50px;
+}
+
+#process-second-row-content span {
+    color: #687373;
+    display: block;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#process-second-row-content p {
+    color: #dfdfdf;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+#process-third-row-content p {
+    color: #dfdfdf;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.process-container>.container-fluid {
+    background-image: url(../assets/images/process/dark-room.jpg);
+    background-size: 100% 100%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.process-container>.container-fluid h2 {
+    color: white;
+    font-family: Raleway-Bold, Arial, Helvetica;
+    margin-top: 70px;
+}
+
+.process-container>.container-fluid h2>span {
+    color: white;
+}
+
+.process-container>.container-fluid small,
+.process-container>.container-fluid small>span {
+    color: white;
+    font-family: Raleway-Bold, Arial, Helvetica;
+    letter-spacing: 2px;
+}
+
+.process-container>.container-fluid small>span {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.process-container #our-numbers-content>div:nth-child(1),
+.process-container #our-numbers-content>div:nth-child(3) {
+    background-color: rgba(20, 20, 20, 0.5);
+}
+
+.process-container #our-numbers-content>div:nth-child(2),
+.process-container #our-numbers-content>div:nth-child(4) {
+    background-color: rgba(70, 90, 90, 0.5);
+}
+
+.process-container #our-numbers-content>div>div:first-child {
+    height: 60px;
+}
+
+.process-container #our-numbers-content>div>div:nth-child(2) {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-family: Raleway-Bold, Arial, Helvetica;
+    font-size: 40px;
+    height: 70px;
+}
+
+.process-container #our-numbers-content>div>div:nth-child(2)>div {
+    display: table;
+    height: 100%;
+    padding: 0;
+}
+
+.process-container #our-numbers-content>div>div:nth-child(2) span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.process-container #our-numbers-content>div>div:nth-child(3) {
+    color: white;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    font-size: 20px;
+    height: 100px;
+}
+
+.process-container #our-numbers-content>div>div:nth-child(3) span {
+    display: inline-block;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.process-container>.container-fluid .row:nth-child(3) p {
+    color: #efefef;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}

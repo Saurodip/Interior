@@ -1,0 +1,85 @@
+@media (min-width: 768px) and (min-height: 550px) {
+    .navbar-fixed-top {
+        min-height: 90px;
+        padding-top: 20px;
+    }
+}
+
+.navbar-fixed-top {
+    background-color: black;
+}
+
+.navbar-brand {
+    display: inline-table;
+    font-family: Raleway-ExtraBold, Arial, Helvetica;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.navbar-brand span:first-child {
+    color: #b6bbbd;
+}
+
+.navbar-brand span:last-child {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #7b7d7d;
+    font-family: Raleway-Bold, Arial, Helvetica;
+    font-size: 12px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a.active {
+    color: white;
+}
+
+
+/* ANIMATED HAMBURGER ICON (TRANSFORM ☰ TO 'X') */
+
+.navbar-toggle {
+    border: none;
+    background: transparent !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #b6bbbd;
+    transition: all 0.2s;
+}
+
+.navbar-toggle .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+/* END ANIMATION */

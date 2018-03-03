@@ -1,0 +1,94 @@
+#skills>.skills-container {
+    background-color: #1b1b1b;
+    width: 100%;
+}
+
+#skills-first-row-content h1 {
+    color: white;
+    font-family: Raleway-Bold, Arial, Helvetica;
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 90px;
+}
+
+#skills-first-row-content small {
+    color: #687373;
+    font-family: Raleway-Medium, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#skills-first-row-content small>span {
+    color: white;
+}
+
+#skills-first-row-content p {
+    color: #dfdfdf;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+#skills-second-row-content {
+    margin-bottom: 50px;
+}
+
+#skills-second-row-content nav nav-tabs {
+    border-bottom: 1px solid rgba(57, 57, 57, 0.7);
+}
+
+#skills-second-row-content ul>li>a {
+    color: #687373;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    letter-spacing: 1px;
+}
+
+#skills .nav-tabs>li.active>a,
+.nav-tabs>li>a:hover {
+    background-color: rgba(57, 57, 57, 0.7);
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    color: #dfdfdf;
+}
+
+#skills-second-row-content .tab-content {
+    color: #dfdfdf;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#skills-second-row-content .progress {
+    background-color: rgb(77, 56, 36);
+}
+
+#progress-creativity,
+#progress-colour-sense,
+#progress-communication {
+    background-color: rgba(68, 20, 11, 0.88);
+}
+
+#progress-imagination,
+#progress-illustration,
+#progress-drawing {
+    background-color: rgba(45, 34, 24, 0.88);
+}
+
+#skills-second-row-content .progress span {
+    font-family: Raleway-Regular, Arial, Helvetica;
+    letter-spacing: 1px;
+}
+
+#skills-second-row-content .progress span:first-child {
+    position: absolute;
+    left: 25px;
+}
+
+#skills-second-row-content .progress span:last-child {
+    position: absolute;
+    right: 25px;
+}

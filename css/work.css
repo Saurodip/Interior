@@ -1,0 +1,49 @@
+#work>.container-fluid {
+    background-color: #141414;
+    width: 100%;
+}
+
+#work-first-row-content h1 {
+    color: white;
+    font-family: Raleway-Bold, Arial, Helvetica;
+    font-size: 70px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+#work-first-row-content small {
+    color: #687373;
+    font-family: Raleway-Medium, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#work-first-row-content small>span {
+    color: white;
+}
+
+#work-first-row-content p {
+    color: #dfdfdf;
+    font-family: Raleway-Regular, Arial, Helvetica;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#work-second-row-content>div {
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#work-second-row-content>div>img {
+    height: 300px;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+#work-second-row-content>div>img:hover {
+    transform: rotate(10deg) scale(1.5);
+}

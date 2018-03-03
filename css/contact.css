@@ -1,0 +1,187 @@
+#contact>.contact-container {
+    background-image: url(../assets/images/contact/1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+#contact-first-row-content h1 {
+    color: white;
+    font-family: Raleway-Bold, Arial, Helvetica;
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 90px;
+}
+
+@media (max-width: 370px) {
+    #contact-first-row-content h1 {
+        font-size: 50px;
+    }
+}
+
+#contact-first-row-content small {
+    color: #687373;
+    font-family: Raleway-Medium, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#contact-first-row-content small>span {
+    color: white;
+}
+
+#contact-second-row-content {
+    margin-top: 50px;
+}
+
+#contact-second-row-content address {
+    color: white;
+    font-family: Raleway-Medium, Arial, Helvetica;
+    letter-spacing: 2px;
+}
+
+.contact-container .fa {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-right: 7px;
+}
+
+#contact-second-row-content address>div:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+#contact-second-row-content address>div:nth-child(1) span {
+    color: #b6bbbd;
+}
+
+#contact-second-row-content address>div:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+#contact-second-row-content address>div:nth-child(3)>a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact-second-row-content address>div:nth-child(3)>a:hover {
+    color: #afafaf;
+}
+
+.contact-container form div:first-child.col-xs-12,
+.contact-container form div:nth-child(2).col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.contact-container form div:first-child.col-md-6 {
+    padding-left: 0;
+}
+
+.contact-container form div:nth-child(2).col-md-6 {
+    padding-right: 0;
+}
+
+.contact-container form div:nth-child(3).col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#name,
+#email,
+#message,
+#send,
+#locate {
+    background-color: transparent;
+    border-radius: 0px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#message {
+    resize: none;
+}
+
+#send {
+    color: white;
+    float: right;
+    font-family: Raleway-Medium, Arial, Helvetica;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+#send:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+#send:hover:after {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+#locate {
+    color: white;
+    display: block;
+    font-family: Raleway-Medium, Arial, Helvetica;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 30px auto 70px auto;
+    padding: 20px;
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+#locate:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+#locate:hover:after {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
